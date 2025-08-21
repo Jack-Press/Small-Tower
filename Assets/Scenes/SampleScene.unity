@@ -531,7 +531,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5381458661122831810, guid: 5766e55cb6a55214dba4c364d0aa7471, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5381458661122831810, guid: 5766e55cb6a55214dba4c364d0aa7471, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1920,7 +1920,7 @@ Transform:
   m_GameObject: {fileID: 1392107361}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.67, y: 17.35, z: 0}
+  m_LocalPosition: {x: 5.52, y: 31.05, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1977,6 +1977,7 @@ MonoBehaviour:
   jumpPower: 10
   walledSpeed: 2
   keys: 000000000000000000000000000000000000000000000000
+  powers: 000000000000000000000000
 --- !u!1 &1408629455 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8310030005093275168, guid: ecf8a18c2aa8d184782013706f489ff1, type: 3}

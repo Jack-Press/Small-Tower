@@ -18,6 +18,7 @@ public class PlayerScript : MonoBehaviour
     private Collider2D walled;
     private int face;
     public int[] keys;
+    public int[] powers;
 
     void Start()
     {
@@ -44,6 +45,11 @@ public class PlayerScript : MonoBehaviour
         {
             rb.velocity = new Vector2(maxSpeed * -face, jumpPower);
             walled = null;
+        }
+        else if (up && powers[0] > 1)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, jumpPower);
+            powers[0]--;
         }
 
         if (rb.velocity.x != 0)
